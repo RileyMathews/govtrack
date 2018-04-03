@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Political representative component -->
+    <article id="rep" class="representative">
+        <!-- Basic candidate info component -->
+        <section class="representative__info">
+            <!-- Candidate image component -->
+            <img class="image repImage" src="https://www.govtrack.us/data/photos/400081-100px.jpeg">
+
+
+            <!-- Candidate name component -->
+            <h3 class="name name--representative">Jim Cooper</h3>
+
+
+            <!-- District Info -->
+            <p class="repDistrict">Representative for Tennessee's 5th congressional district</p>
+
+
+            <!-- Political affiliation -->
+            <p class="info__affiliation">Democrat</p>
+
+        </section>
+
+        <!-- commitees rep is serving on -->
+        <section class="commitees">
+            <ul class="commitees__list">
+                <li class="commitees__item">House Committee on Armed Services</li>
+                <li class="commitees__item">House Committee on Oversight and Government Reform</li>
+            </ul>
+        </section>
+
+        <!-- legislation rep has enacted -->
+        <section class="legislation">
+            <h4 class="legislation__header">Enacted Legislation:</h4>
+            <ul class="legislation__list">
+                <li class="legislation__item"><a href="https://www.govtrack.us/congress/bills/110/hr928">H.R. 928 (110th): Inspector General Reform Act of 2008</a></li>
+                <li class="legislation__item"><a href="https://www.govtrack.us/congress/bills/103/hjres297">H.J.Res. 297 (103rd): To designate 1994 as “The Year of Gospel Music”.</a></li>
+                <li class="legislation__item"><a href="https://www.govtrack.us/congress/bills/101/hr5667">H.R. 5667 (101st): To amend the Water Resources Development Act of 1974 to establish a deadline for the transfer of jurisdiction of the Big South Fork National River and Recreation</a></li>
+                <li class="legislation__item"><a href="https://www.govtrack.us/congress/bills/101/hr971">H.R. 971 (101st): Telephone Operator Consumer Services Improvement Act of 1990</a></li>
+            </ul>
+        </section>
+    </article>
+
+    <script src="govtrack.js"></script>
+</body>
+</html>
